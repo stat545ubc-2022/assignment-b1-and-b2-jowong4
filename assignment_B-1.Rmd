@@ -1,5 +1,5 @@
 ---
-title: "assignment1"
+title: "Assignment B-1"
 author: "Johnathan Wong"
 date: "November 3, 2022"
 output: github_document
