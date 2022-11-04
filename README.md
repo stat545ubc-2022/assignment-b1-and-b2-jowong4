@@ -1,8 +1,8 @@
-# Assignment b1 and b2
+# Assignment B-1 and B-2
 
 ## What is this repo?
 
-This repo contains assignments b-1 and b-2 from STAT545B. Assignment b1 involves defining our own function, demonstrating the functionality with some examples, and making tests.
+This repo contains assignments B-1 and B-2 from STAT545B. Assignment B-1 involves defining our own function, demonstrating the functionality with some examples, and making tests.
 
 
 ## How to run the code?
@@ -28,8 +28,8 @@ Using RStudio:
 
 Using command line:
 
-1.  `git clone [https://github.com/stat545ubc-2022/Johnathan_Wong_Mini_Data-Analysis.git](https://github.com/stat545ubc-2022/assignment-b1-and-b2-jowong4.git)`
+1.  `git clone https://github.com/stat545ubc-2022/assignment-b1-and-b2-jowong4.git`
 
 2.  `cd assignment-b1-and-b2-jowong4`
 
-3.  `Rscript -e "rmarkdown::render('assignmentX.Rmd')"`
+3.  `Rscript -e "rmarkdown::render('assignment_B-X.Rmd')"`
