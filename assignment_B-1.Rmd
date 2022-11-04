@@ -21,8 +21,8 @@ library(tidyverse)
 #' Also outputs a boxplot with NA entries removed.
 #'
 #'
-#' @param num_vec a numeric vector used to calculate summary statistics.
-#' @param na.rm logical, remove NA entries when generating summary statistics if TRUE. (NOTE: boxplot will not use NA entries regardless of this parameter).
+#' @param num_vec a numeric vector used to calculate summary statistics. num_vec is short for numeric_vector.
+#' @param na.rm logical, remove NA entries when generating summary statistics if TRUE. (NOTE: boxplot will not use NA entries regardless of this parameter). na.rm is what many other functions call the parameter to remove NA, so I just followed the convention.
 #'
 #' @return a numeric vector containing number of elements, number of unique elements, min, 1st quartile, median, mean, 3rd quartile, max, and number of NAs (in this order).
 #'
