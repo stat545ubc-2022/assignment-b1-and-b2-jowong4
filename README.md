@@ -10,7 +10,8 @@ The goal of summaryandboxplot is to summarize a numeric vector with
 summary stats (number of elements, number of unique elements, min, 1st
 quartile, median, mean, 3rd quartile, max, and number of NAs) and
 provide a box-and-jitter plot to produce a visual respresentation of the
-numeric vector.
+numeric vector (NOTE: the jitters in the box-and-jitter plot are
+stochastic and can appear in different positions between runs).
 
 ## Installation
 

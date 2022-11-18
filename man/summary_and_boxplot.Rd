@@ -19,7 +19,8 @@ max, and number of NAs (in this order).
 \description{
 Summarize a numeric vector input and output a numeric vector containing number of elements, number of unique elements, min,
 1st quartile, median, mean, 3rd quartile, max, and number of NAs.
-This function also outputs a box-and-jitter plot with NA entries removed for visualization purposes.
+This function also outputs a box-and-jitter plot with NA entries removed for visualization purposes
+(NOTE: the jitters in the box-and-jitter plot are stochastic and can appear in different positions between runs).
 }
 \examples{
 summary_and_boxplot(1:10)
