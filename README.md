@@ -7,8 +7,10 @@
 <!-- badges: end -->
 
 The goal of summaryandboxplot is to summarize a numeric vector with
-summary stats and provide a boxplot to produce a visual respresentation
-of the numeric vector.
+summary stats (number of elements, number of unique elements, min, 1st
+quartile, median, mean, 3rd quartile, max, and number of NAs) and
+provide a box-and-jitter plot to produce a visual respresentation of the
+numeric vector.
 
 ## Installation
 
@@ -21,7 +23,8 @@ devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-jowong4", ref = "
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to use summary\_and\_boxplot
+to summarize a numeric vector:
 
 ``` r
 library(summaryandboxplot)

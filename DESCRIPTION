@@ -2,9 +2,9 @@ Package: summaryandboxplot
 Title: Summarize numeric vector and output boxplot
 Version: 0.1.0
 Authors@R: 
-    person(given = "Johnathan", family = "Wong", email = "johnathanwong4@gmail.com", role = c("aut", "cre"),
+    person("Johnathan", "Wong", email = "johnathanwong4@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-1687-8972"))
-Description: Summarize a numeric vector input and output a numeric vector containing number of elements, number of unique elements, min, 1st quartile, median, mean, 3rd quartile, max, and number of NAs. The function also outputs a boxplot with NA entries removed.
+Description: Summarize a numeric vector input and output a numeric vector containing number of elements, number of unique elements, min, 1st quartile, median, mean, 3rd quartile, max, and number of NAs. This function also outputs a box-and-jitter plot with NA entries removed for visualization purposes.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

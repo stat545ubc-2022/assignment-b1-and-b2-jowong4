@@ -2,7 +2,7 @@
 #'
 #' Summarize a numeric vector input and output a numeric vector containing number of elements, number of unique elements, min,
 #' 1st quartile, median, mean, 3rd quartile, max, and number of NAs.
-#' Also outputs a boxplot with NA entries removed.
+#' This function also outputs a box-and-jitter plot with NA entries removed for visualization purposes.
 #'
 #'
 #' @param num_vec a numeric vector used to calculate summary statistics. num_vec is short for numeric_vector.
