@@ -16,7 +16,7 @@ You can install the development version of summaryandboxplot like so:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("vincenzocoia/powers")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-jowong4")
 ```
 
 ## Example
