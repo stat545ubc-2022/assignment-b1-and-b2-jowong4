@@ -35,6 +35,10 @@ This is a basic example which shows you how to use summary_and_boxplot to summar
 
 ```{r example}
 library(summaryandboxplot)
+
 summary_and_boxplot(1:10)
+
 summary_and_boxplot(c(1, 2, 3, 4, 5))
 ```
+
+

@@ -28,6 +28,7 @@ to summarize a numeric vector:
 
 ``` r
 library(summaryandboxplot)
+
 summary_and_boxplot(1:10)
 #> There are 0 NA entries in your numeric vector input.
 #> There are 10 entries in your numeric vector input.
@@ -43,6 +44,7 @@ summary_and_boxplot(1:10)
 <img src="man/figures/README-example-1.png" width="100%" />
 
     #> [1] 10.00 10.00  1.00  3.25  5.50  5.50  7.75 10.00  0.00
+
     summary_and_boxplot(c(1, 2, 3, 4, 5))
     #> There are 0 NA entries in your numeric vector input.
     #> There are 5 entries in your numeric vector input.
