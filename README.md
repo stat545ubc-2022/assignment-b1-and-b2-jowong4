@@ -1,35 +1,55 @@
-# Assignment B-1 and B-2
 
-## What is this repo?
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-This repo contains assignments B-1 and B-2 from STAT545B. Assignment B-1 involves defining our own function, demonstrating the functionality with some examples, and making tests.
+# summaryandboxplot
 
+<!-- badges: start -->
+<!-- badges: end -->
 
-## How to run the code?
+The goal of summaryandboxplot is to summarize a numeric vector with
+summary stats and provide a boxplot to produce a visual respresentation
+of the numeric vector.
 
-There are two ways to run the code in this repository. Please ensure that you have R and the packages used in this codebase installed before running
+## Installation
 
-### Dependencies
- * R
- * tidyverse
- * knitr
+You can install the development version of summaryandboxplot like so:
 
-Using RStudio:
+``` r
+# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```
 
-1.  Press the green "Code"" button and then click the copy button
+## Example
 
-2.  Open Rstudio and create a new project by going to "File" and then click "New Project"
+This is a basic example which shows you how to solve a common problem:
 
-3.  Press Version Control then Git. Then paste the link into the url box.
+``` r
+library(summaryandboxplot)
+summary_and_boxplot(1:10)
+#> There are 0 NA entries in your numeric vector input.
+#> There are 10 entries in your numeric vector input.
+#> There are 10 unique entries in your numeric vector input.
+#> Min: 1
+#> 1st quartile: 3.25
+#> Median: 5.5
+#> Mean: 5.5
+#> 3rd quartile: 7.75
+#> Max: 10
+```
 
-4. The code will then be cloned to your PC via RStudio.
+<img src="man/figures/README-example-1.png" width="100%" />
 
-5. To knit your own version of the the Rmd, simply open the Rmd and click on the knit button
+    #> [1] 10.00 10.00  1.00  3.25  5.50  5.50  7.75 10.00  0.00
+    summary_and_boxplot(c(1, 2, 3, 4, 5))
+    #> There are 0 NA entries in your numeric vector input.
+    #> There are 5 entries in your numeric vector input.
+    #> There are 5 unique entries in your numeric vector input.
+    #> Min: 1
+    #> 1st quartile: 2
+    #> Median: 3
+    #> Mean: 3
+    #> 3rd quartile: 4
+    #> Max: 5
 
-Using command line:
+<img src="man/figures/README-example-2.png" width="100%" />
 
-1.  `git clone https://github.com/stat545ubc-2022/assignment-b1-and-b2-jowong4.git`
-
-2.  `cd assignment-b1-and-b2-jowong4`
-
-3.  `Rscript -e "rmarkdown::render('assignment_B-X.Rmd')"`
+    #> [1] 5 5 1 2 3 3 4 5 0

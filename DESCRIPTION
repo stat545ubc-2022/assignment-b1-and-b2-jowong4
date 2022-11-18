@@ -1,0 +1,17 @@
+Package: summaryandboxplot
+Title: Summarize numeric vector and output boxplot
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Johnathan", family = "Wong", email = "johnathanwong4@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-1687-8972"))
+Description: Summarize a numeric vector input and output a numeric vector containing number of elements, number of unique elements, min, 1st quartile, median, mean, 3rd quartile, max, and number of NAs. The function also outputs a boxplot with NA entries removed.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    ggplot2,
+    tibble
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
