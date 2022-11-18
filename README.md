@@ -15,7 +15,8 @@ of the numeric vector.
 You can install the development version of summaryandboxplot like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("vincenzocoia/powers")
 ```
 
 ## Example
