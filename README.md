@@ -56,4 +56,4 @@ summary_and_boxplot(1:10)
     #> [1] 5 5 1 2 3 3 4 5 0
     
     
-NOTE: jitter plots are stochastic so the the plots may look different. It is only meant to give the user a visual represenation of the data and the summary statistics generated from the data.
+NOTE: jitter plots are stochastic so the the plots may look different even when you use the same data. The boxplot visualization is only meant to give the users a visual represenation of the data and the summary statistics generated from the data.
