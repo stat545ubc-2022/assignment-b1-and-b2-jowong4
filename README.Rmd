@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # summaryandboxplot
 
 <!-- badges: start -->
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/stat545ubc-2022/assignment-b1-and-b2-jowong4)
 <!-- badges: end -->
 
 The goal of summaryandboxplot is to summarize a numeric vector with summary stats (number of elements, number of unique elements, min, 1st quartile, median, mean, 3rd quartile, max, and number of NAs) and provide a box-and-jitter plot to produce a visual respresentation of the numeric vector (NOTE: the jitters in the box-and-jitter plot are stochastic and can appear in different positions between runs).

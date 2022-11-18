@@ -4,6 +4,9 @@
 # summaryandboxplot
 
 <!-- badges: start -->
+
+![GitHub release (latest by
+date)](https://img.shields.io/github/v/release/stat545ubc-2022/assignment-b1-and-b2-jowong4)
 <!-- badges: end -->
 
 The goal of summaryandboxplot is to summarize a numeric vector with
