@@ -16,7 +16,7 @@ You can install the development version of summaryandboxplot like so:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-jowong4")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-jowong4", ref = "0.1.0")
 ```
 
 ## Example
@@ -54,6 +54,3 @@ summary_and_boxplot(1:10)
 <img src="man/figures/README-example-2.png" width="100%" />
 
     #> [1] 5 5 1 2 3 3 4 5 0
-    
-    
-NOTE: jitter plots are stochastic so the the plots may look different even when you use the same data. The boxplot visualization is only meant to give the users a visual represenation of the data and the summary statistics generated from the data.

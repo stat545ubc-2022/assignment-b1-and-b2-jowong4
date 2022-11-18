@@ -25,7 +25,8 @@ The goal of summaryandboxplot is to summarize a numeric vector with summary stat
 You can install the development version of summaryandboxplot like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-jowong4", ref = "0.1.0")
 ```
 
 ## Example
