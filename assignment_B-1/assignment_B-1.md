@@ -14,10 +14,10 @@ library(tidyverse)
 ``` r
 #' summary_and_boxplot: Summarize numeric vector and output boxplot
 #'
-#' Summarize a numeric vector input and output a numeric vector containing number of elements, number of unique elements, min, 
+#' Summarize a numeric vector input and output a numeric vector containing number of elements, number of unique elements, min,
 #' 1st quartile, median, mean, 3rd quartile, max, and number of NAs.
-#' Also outputs a boxplot with NA entries removed.
-#'
+#' This function also outputs a box-and-jitter plot with NA entries removed for visualization purposes
+#' (NOTE: the jitters in the box-and-jitter plot are stochastic and can appear in different positions between runs).
 #'
 #' @param num_vec a numeric vector used to calculate summary statistics. num_vec is short for numeric_vector.
 #' @param na.rm logical, remove NA entries when generating summary statistics if TRUE.(NOTE: boxplot will not use NA entries regardless of this parameter).
@@ -25,6 +25,10 @@ library(tidyverse)
 #'
 #' @return a numeric vector containing number of elements, number of unique elements, min, 1st quartile, median, mean, 3rd quartile,
 #' max, and number of NAs (in this order).
+#'
+#' @examples
+#' summary_and_boxplot(1:10)
+#' summary_and_boxplot(c(1, 2, 3, 4, 5))
 #'
 summary_and_boxplot <- function(num_vec, na.rm = TRUE) {
   if(!is.numeric(num_vec)) {
@@ -264,6 +268,72 @@ test_that("Testing summarize and boxplot function", {
 })
 ```
 
-![](assignment_B-1_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->![](assignment_B-1_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->![](assignment_B-1_files/figure-gfm/unnamed-chunk-9-3.png)<!-- -->
+    ## There are 0 NA entries in your numeric vector input.
+
+    ## There are 10 entries in your numeric vector input.
+
+    ## There are 10 unique entries in your numeric vector input.
+
+    ## Min: 1
+
+    ## 1st quartile: 3.25
+
+    ## Median: 5.5
+
+    ## Mean: 5.5
+
+    ## 3rd quartile: 7.75
+
+    ## Max: 10
+
+    ## There are 10 NA entries in your numeric vector input.
+
+    ## Removing 10 NA entries from your numeric vector input.
+
+    ## There are 10 entries in your numeric vector input.
+
+    ## There are 10 unique entries in your numeric vector input.
+
+    ## Min: 1
+
+    ## 1st quartile: 3.25
+
+    ## Median: 5.5
+
+    ## Mean: 5.5
+
+    ## 3rd quartile: 7.75
+
+    ## Max: 10
+
+![](assignment_B-1_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+
+    ## There are 10 NA entries in your numeric vector input.
+
+    ## There are 20 entries in your numeric vector input.
+
+    ## There are 11 unique entries in your numeric vector input.
+
+    ## Min: 1
+
+    ## 1st quartile: 3.25
+
+    ## Median: 5.5
+
+    ## Mean: 5.5
+
+    ## 3rd quartile: 7.75
+
+    ## Max: 10
+
+![](assignment_B-1_files/figure-gfm/unnamed-chunk-9-2.png)<!-- -->
+
+    ## There are 1 NA entries in your numeric vector input.
+
+    ## Removing 1 NA entries from your numeric vector input.
+
+    ## There are 1 NA entries in your numeric vector input.
+
+![](assignment_B-1_files/figure-gfm/unnamed-chunk-9-3.png)<!-- -->
 
     ## Test passed
